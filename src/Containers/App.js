@@ -70,9 +70,9 @@ class App extends Component {
                     <h1 className='f1'>RoboFriends</h1>
                     <SearchBox searchChange={this.onSearchChange} />
                     <form onSubmit={this.onSubmit}>
-                            <input type='text' required id='nameField' value={this.state.name} onChange={this.handleNameChange} placeholder='Enter your name'/>
-                            <input type='text' required id='emailField' value={this.state.email} onChange={this.handleEmailChange} placeholder='Enter your email'/>
-                            <input type="submit" value="Submit"/>
+                            <input type='text' className='pa3 ba b--green bg-lightest-blue' required id='nameField' value={this.state.name} onChange={this.handleNameChange} placeholder='Enter your name'/>
+                            <input type='text' className='pa3 ba b--green bg-lightest-blue' required id='emailField' value={this.state.email} onChange={this.handleEmailChange} placeholder='Enter your email'/>
+                            <input type="submit" className='pa3 ba b--green bg-lightest-blue' value="Submit"/>
                     </form>
                     <Scroll>
                         <ErrorBoundary>
