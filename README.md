@@ -1,3 +1,9 @@
+# Create your own robo-avatar in the link above! 
+This project is very much inspired by ztm but there are some custom-made changes that I have implemented. Enjoy.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
